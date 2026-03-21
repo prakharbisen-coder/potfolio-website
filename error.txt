@@ -1,0 +1,41 @@
+﻿node.exe : [31mfailed to load config 
+from C:\Users\prakh\OneDrive\Desktop\start
+uppotfolio\vite.config.ts[39m
+At C:\Program Files\nodejs\npx.ps1:29 
+char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecifie 
+   d: ([31mfailed to ....config.ts[39m  
+  :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeComma 
+   ndError
+ 
+[31merror during build:
+Error [ERR_MODULE_NOT_FOUND]: Cannot find 
+module 'C:\Users\prakh\OneDrive\Desktop\st
+artuppotfolio\node_modules\jiti\dist\jiti.
+cjs' imported from C:\Users\prakh\OneDrive
+\Desktop\startuppotfolio\node_modules\jiti
+\lib\jiti.mjs
+    at finalizeResolution 
+(node:internal/modules/esm/resolve:275:11)
+    at moduleResolve 
+(node:internal/modules/esm/resolve:860:10)
+    at defaultResolve 
+(node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve 
+(node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve 
+(node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve 
+(node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport 
+(node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modu
+les/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/prakh/OneDrive/De
+sktop/startuppotfolio/node_modules/jiti/di
+st/jiti.cjs'
+}[39m
